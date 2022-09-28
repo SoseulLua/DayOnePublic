@@ -26,6 +26,8 @@
 
 #### - Installing Visual Studio 2022
 Be sure you install the following workloads:
+
+<img src="Images/VisualStudio2022_Select.png" width="40%" height="30%" title="Project Setting" alt="Unity"></img>
 ```
 ● .NET desktop development
 ● Desktop development with C++
