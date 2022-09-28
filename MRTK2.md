@@ -12,8 +12,6 @@
 
 [Vuforia HoloLens Sample](https://library.vuforia.com/platform-support/working-hololens-sample-unity "Vuforia HoloLens Sample")
 
-[HoloLens 2 자습서](https://learn.microsoft.com/en-us/training/paths/beginner-hololens-2-tutorials/ "HoloLens 2 자습서")
-
 ----
 
 ### Requirement Link
