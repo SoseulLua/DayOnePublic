@@ -81,3 +81,25 @@ The best way to discover, update, and import feature packages is with the Mixed 
 When working on Windows, there is a MAX_PATH limit of 255 characters. Unity is affected by these limits and may fail to compile if any file path is longer than 255 characters. Therefore, we recommend that you store your Unity project as close to the root of the drive as possible.
 
 [Known issues in Unity versions and packages](https://learn.microsoft.com/en-us/windows/mixed-reality/develop/unity/known-issues "Known issues ")
+
+
+----
+
+
+
+
+### [ Initial Scene Setting ] 
+
+Ctrl + N => Basic(Built-in) Scene
+
+<img src="https://user-images.githubusercontent.com/25565482/193223692-fc332d1f-5687-40ed-b4b0-c797de5ab19e.png" width="60%" height="60%" title="Project Setting" alt="Unity"></img>
+
+<img src="https://user-images.githubusercontent.com/25565482/193225118-f3dd968d-1a12-4a26-a41d-de12bce2ea0f.png" width="60%" height="60%" title="Project Setting" alt="Unity"></img>
+
+<img src="https://user-images.githubusercontent.com/25565482/193225401-ba4748a4-a5f0-4c95-bc12-58c28c81c502.png" width="60%" height="60%" title="Project Setting" alt="Unity"></img>
+
+```
+MixedRealityToolkit
+MixedRealityPlayspace (has the MainCamera as a child)
+MixedRealitySceneContent
+```
