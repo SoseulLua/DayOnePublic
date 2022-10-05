@@ -95,7 +95,7 @@ MixedRealitySceneContent
 
 -----
 
-#### ***Caution***
+### [***Caution***]
 
 - MAX_PATH limit of 255 characters
 
