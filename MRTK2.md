@@ -12,7 +12,7 @@
 
 [Vuforia HoloLens Sample](https://library.vuforia.com/platform-support/working-hololens-sample-unity "Vuforia HoloLens Sample")
 
-----
+-----
 
 ### Requirement Link
 
@@ -75,19 +75,6 @@ The best way to discover, update, and import feature packages is with the Mixed 
 
 
 
-
-##### ***Caution***
-
-When working on Windows, there is a MAX_PATH limit of 255 characters. Unity is affected by these limits and may fail to compile if any file path is longer than 255 characters. Therefore, we recommend that you store your Unity project as close to the root of the drive as possible.
-
-[Known issues in Unity versions and packages](https://learn.microsoft.com/en-us/windows/mixed-reality/develop/unity/known-issues "Known issues ")
-
-
-----
-
-
-
-
 ### [ Initial Scene Setting ] 
 
 Ctrl + N => Basic(Built-in) Scene
@@ -103,3 +90,24 @@ MixedRealityToolkit
 MixedRealityPlayspace (has the MainCamera as a child)
 MixedRealitySceneContent
 ```
+
+
+
+-----
+
+#### ***Caution***
+
+- MAX_PATH limit of 255 characters
+
+When working on Windows, there is a MAX_PATH limit of 255 characters. Unity is affected by these limits and may fail to compile if any file path is longer than 255 characters. Therefore, we recommend that you store your Unity project as close to the root of the drive as possible.
+
+[Known issues in Unity versions and packages](https://learn.microsoft.com/en-us/windows/mixed-reality/develop/unity/known-issues "Known issues ")
+
+
+- Avoid Unity 'PlayerSettings.graphicsJob' crash (Unity 2019.3 and newer)
+
+In the latest version of Unity 2019, when "Graphics Jobs" is enabled, the app will crash when deployed to a HoloLens 2. This setting is enabled by default in Unity - while this bug exists (see Unity bug), the configurator will default to setting Graphics Jobs to 'false' (thus allowing apps deployed to HoloLens 2 not to crash).
+
+-----
+
+
