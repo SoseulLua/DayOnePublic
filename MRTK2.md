@@ -95,7 +95,11 @@ MixedRealitySceneContent
 
 -----
 
-### [***Caution***]
+### [***Issure***]
+
+[Performance recommendations for Unity](https://learn.microsoft.com/en-us/windows/mixed-reality/develop/unity/performance-recommendations-for-unity "Performance recommendations for Unity")
+
+
 
 - MAX_PATH limit of 255 characters
 
